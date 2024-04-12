@@ -95,4 +95,4 @@ for result in arbitrage_results:
         maxa = result[1]
         path = result[0]
 
-print(f"Path: {path}, Final amount of tokenB: {maxa}")
+print(f"path: {path}, tokenB balance={maxa}")
